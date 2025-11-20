@@ -28,7 +28,7 @@ The Monte Carlo simulation prints progress updates. After Policy Iteration is co
   In case Gurobi is unavailable, in line 52 of `performanceEstimation.m` change  
   `sCopy.GurobiSolve` to `sCopy.BPsolve`. This uses the Matlab built-in `intlinprog` instead.  
 
-The file prints summarizing statistics after it is finished.  
+The file prints a summary of results after it is finished.  
 The final three lines are only valid if five policies are tested at once, like in section 5.4.2. Simply comment these out if this is not relevant.  
 The trained policies for the Pisinger generators are given in the folder `policies`.  
 The data used to obtain the results in the paper are given in the folder `testingData`.  
@@ -46,4 +46,4 @@ Using a policy on its corresponding dataset will yield the results presented in 
   The heuristic for "improved" must match the filename as in line 131.
   In Case Gurobi is unavailable, in line 70 of 'BPP_CG_solver.m' change 's.GurobiSolve(0,inf,0,subsol)' to 's.BPsolve' to use Matlab's built-in solver. Note that different optimal solutions may be returned, which will affect the total solving trajectory. 
 
-Summarizing statistics are printed at the end of the program.  
+A summary of results is printed at the end of the program.  
