@@ -1,4 +1,3 @@
-# HeuristicImprovementKP_Code
 This repository contains the code used for the paper titled 'From Generic to Structure-Aware Heuristics through Markov Decision Processes'.  
 All files are Matlab files. There is a dependency on Gurobi, this can be avoided, which will be explained later.  
 
