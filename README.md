@@ -2,7 +2,7 @@
 This repository contains the code used for the paper titled 'From Generic to Structure-Aware Heuristics through Markov Decision Processes'.<br />
 All files are Matlab files. There is a dependency on Gurobi, this can be avoided, which will be explained later.
 
-There are 3 main files:
+There are 3 main files:<br />
 MainPolicyCreation.m      |  Approximates a TMDP and performs policy iteration to obtain an improved heuristic.<br />
 MainPerformanceTesting.m  |  Evaluates the performance of heuristics.<br />
 MainColumnGeneration.m    |  Solves BPP relaxations using column generation using different heuristics for the subproblem.<br />
